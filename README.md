@@ -1,2 +1,3 @@
-# templates
-Store templates to be reused in other Holistics projects
+# Holistics DBT
+
+Generate Holistics data models based on dbt `manifest.json` and `catalogs.json`.
