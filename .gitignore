@@ -2,3 +2,7 @@ myenv/
 __pycache__/
 *.pyc
 *.pyo
+dist/
+eggs/
+.eggs/
+*.egg-info/
