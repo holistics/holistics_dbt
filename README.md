@@ -12,6 +12,7 @@ Generate Holistics data models based on dbt `manifest.json` and `catalogs.json`.
 ## Usage
 - Import the `AmlGen` and `Dbt` classes
 - Provide the path to your `manifest.json` and `catalog.json` files
+  - The `catalog.json` can be obtained by running `dbt docs generate`
 - Run the `AmlGen#gen_table_models` to generate the Holistics data models
 - Call `to_s` on each model to get the AML text
 
