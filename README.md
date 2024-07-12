@@ -1,6 +1,7 @@
 # Holistics DBT
 
-Generate Holistics data models based on dbt `manifest.json` and `catalogs.json`.
+Holistics-DBT is a generic library for integrating DBT with Holistics.
+Currently, it focuses on synchronizing Holistics data models with dbt using `manifest.json` and `catalog.json` files
 
 **Supported databases:**
 - BigQuery
